@@ -1,12 +1,13 @@
 package Selenium_Test.Testing;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class Day1 {
+public class Day4 {
 	
 	public static void main(String args[]) throws InterruptedException
 	{
@@ -55,11 +56,6 @@ public class Day1 {
 		dr.navigate().to("https://demo.opencart.com/");
 		Thread.sleep(3000);
 		dr.findElement(By.xpath("//*[@id=\"search\"]/input")).sendKeys("desktop",Keys.ENTER);
-		Thread.sleep(3000);
-		dr.navigate().back();
-		dr.findElement(By.xpath("//*[@id=\"narbar-menu\"]/ul/li[1]/div/a")).click();
-		dr.findElement(By.xpath("//*[@id=\"narbar-menu\"]/ul/li[1]/div/a")).click();
-		dr.findElement(By.linkText("Returns")).click();
 		Thread.sleep(3000);
 		dr.navigate().back();
 		dr.findElement(By.xpath("/html/body/footer/div/div/div[3]/ul/li[2]/a")).click();
