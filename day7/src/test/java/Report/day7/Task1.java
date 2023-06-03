@@ -10,7 +10,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 
-public class NewTest {
+public class Task1 {
 	
 	
 	public WebDriver dr;
