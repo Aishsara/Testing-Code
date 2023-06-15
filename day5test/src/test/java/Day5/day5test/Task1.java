@@ -24,6 +24,8 @@ public class Task1 {
 				{
 					System.out.println("Title are different");
 				}
+				
+				
 				dr.findElement(By.xpath("//*[@id=\'Mod112\']/div/div/ul/li[1]/h4/a")).click();
 				if(dr.getTitle().equals("Shop"))
 				{

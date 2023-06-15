@@ -1,0 +1,12 @@
+brooklyn.catalog:
+  id: Day8.day8test.MySampleInCatalog
+  version: "1.0"
+  itemType: template
+  description: My Sample
+  displayName: MySample
+  iconUrl: classpath:///sample-icon.png
+  libraries:
+  - file:///Path/to/archetype/sample/target/day8test-0.0.1-SNAPSHOT.jar
+  item:
+    services:
+    - type: Day8.day8test.MySample
